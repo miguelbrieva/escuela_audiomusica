@@ -1,0 +1,113 @@
+.above-header
+  display: none
+
+.header
+  padding: 10px 0
+  background-color: $color-am
+  .container
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.header--logo
+  width: 100px
+  font-size: 0
+  svg
+    fill: $color-whitest
+
+.header--nav
+  display: none
+
+@media all and (min-width: 960px)
+  .header
+    padding: 0
+  .above-header
+    display: block
+    background-color: $color-whitest
+    .container
+      padding: 0
+    ul
+      display: flex
+      justify-content: flex-end
+      li
+        a
+          display: block
+          padding: .5em
+          color: $color-am
+          &:hover
+            text-decoration: underline
+            color: $color-am-active
+
+  .header--nav
+    display: flex
+    .header--flex
+      display: flex
+      align-items: flex-start
+      justify-content: space-around
+
+  .header--logo
+    width: 120px
+
+  .desktop-menu > li
+    a
+      display: flex
+      align-items: center
+      padding: 1.3em
+      height: 86px
+      color: $color-whitest
+      font-size: 1em
+      text-transform: uppercase
+      &:hover
+        background-color: $color-am-dark
+
+  .desktop-menu--anchor
+    .arrow
+      margin-top: 5px
+      margin-right: -5px
+      svg
+        fill: $color-whitest
+
+  .header
+    position: relative
+    .container
+      padding: 0 10px
+  
+  .desktop-menu--submenu
+    position: absolute
+    display: none
+    justify-content: center
+    left: 0px
+    width: 100%
+    background: $color-whitest
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .3)
+    & > li
+      a
+        display: flex
+        flex-flow: column wrap
+        justify-content: center
+        align-items: center
+        text-align: center
+        padding: .7em 1em
+        width: 100%
+        height: 90px
+        color: $color-am
+        .desktop-menu--submenu-itemIcon
+          width: 24px
+          svg
+            fill: $color-am
+        p
+          color: $color-am
+        &:hover
+          color: $color-am-active
+          background: #fafafa
+          .desktop-menu--submenu-itemIcon
+            svg
+              fill: $color-am-active
+          p
+            color: $color-am-active
+
+  .desktop-menu--trigger
+    &:hover
+      .desktop-menu--submenu
+        z-index: 7
+        display: flex

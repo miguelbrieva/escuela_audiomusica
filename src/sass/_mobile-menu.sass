@@ -1,0 +1,70 @@
+.MobileSideMenu
+  background: $color-whitest
+  height: 100%
+  overflow: auto
+
+.MobileSideMenu-header
+  display: flex
+  flex-flow: row wrap
+  justify-content: space-between
+  align-items: center
+  background: $color-am
+  height: 75px
+
+.mobile-menu--header-title
+  width: 80px
+  margin-right: 1em
+  color: $color-whitest
+  text-transform: uppercase
+  a
+    svg
+      fill: $color-whitest
+
+// .mobile-menu--content
+ul.mobile-menu-level1
+  li
+    a
+      display: block
+      width: 100%
+      text-align: left
+      text-transform: uppercase
+      padding: 1em
+      display: block
+      color: $color-am
+      border-bottom: 1px solid $color-negative-light
+
+ul.mobile-menu-level2
+  background-color: $color-background
+  li
+    a
+      border-bottom: 1px solid $color-negative-light
+
+// Submenu
+.mobile-menu-trigger
+  display: block
+  color: $color-whitest
+  padding: 1em
+  text-transform: uppercase
+
+.mobile-menu--submenu
+  display: block
+
+.AccordionMobileSideMenu-trigger
+  display: flex !important
+  justify-content: space-between
+  align-items: center
+  p
+    color: $color-am
+  .arrow
+    margin: -15px 0
+    svg
+      fill: $color-am
+      width: 20px
+
+// .AccordionMobileSideMenu-content
+//   transition: all 100ms
+//   li
+//     transition: all 300ms
+
+.arrow-down
+  transform: rotate(180deg) translateY(4px)

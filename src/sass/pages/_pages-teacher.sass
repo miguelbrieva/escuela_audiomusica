@@ -1,0 +1,34 @@
+.teacher_page
+  margin-bottom: $spacing-vertical-edge
+  > .container
+    display: flex
+    flex-flow: column wrap
+
+.teacher_page-image
+  margin-bottom: $spacing-inner
+  border-radius: 5px
+  overflow: hidden
+  max-height: 300px
+  img
+    height: 100%
+    width: 100%
+    object-fit: cover
+
+.teacher_page-text-bio
+  margin-bottom: $spacing-inner
+
+.teacher_page-curse_link
+  margin-bottom: 10px
+
+@media all and (min-width: 500px)
+  .teacher_page
+    > .container
+      flex-flow: row wrap
+
+  .teacher_page-image
+    max-height: 100%
+    margin-bottom: 0px
+    margin-right: $spacing-inner
+    flex: 1
+  .teacher_page-text
+    flex: 2

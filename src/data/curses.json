@@ -1,0 +1,162 @@
+{
+  "curses": [
+    {
+      "name": "Canto",
+      "short-description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "programme": [
+        "Mecanismos de producción de la voz y su cuidado.",
+        "Visualización y enfoque de los diversos estilos existentes.",
+        "Fundamentos de la emisión vocal: relajación, apoyo, resonancia, vocalización, articulación, etc.",
+        "Clasificación de las voces según registro: soprano, mezzosoprano, contralto, tenor, baritono, bajo. Tesitura o extensión.",
+        "Procedimientos básicos en la técnica del canto.",
+        "Exigencias propias de la expresión cantada: Afinación, Afiatamiento, precisión de ataques, dicción y fraseo.",
+        "Formas de expresión corporal y vocal en la puesta en escena.",
+        "La improvisación vocal : Técnicas y Recursos.",
+        "El timbre y la dinámica como recursos expresivos. Matices de intensidad.",
+        "Análisis y Reconocimiento musical de agrupaciones y solistas en el rock concepto, evolución, tipos."
+      ],
+      "prices": [],
+      "times": {
+        "entry": "29 de Octubre a las 19hrs.",
+        "class-duration": "2 horas cronológicas",
+        "admission-dead-line": "3 de enero."
+      },
+      "branch": ["Megatienda. Av. Chile-España, 393, Ñuñoa", "Av. Eliodoro Yañez 2740, Providencia."],
+      "demostration": [],
+      "teachers": ["Luciano Pavarotti", "Nina Simone", "Jimi Hendrix"],
+      "promotions": [
+        "Descuentos trimestrales y semestrales",
+        "20% de descuento para un familiar. Solo arancel.",
+        "Targeta Soy Providencia: 50% de descuento en matricula y 20% en mesualidad. Solo para talleres grupales de $45.000 y $25.000."
+      ]
+    },
+    {
+      "name": "Guitarra",
+      "short-description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "programme": [
+        "Mecanismos de producción de la voz y su cuidado.",
+        "Visualización y enfoque de los diversos estilos existentes.",
+        "Fundamentos de la emisión vocal: relajación, apoyo, resonancia, vocalización, articulación, etc.",
+        "Clasificación de las voces según registro: soprano, mezzosoprano, contralto, tenor, baritono, bajo. Tesitura o extensión."
+      ],
+      "prices": [],
+      "times": {
+        "entry": "29 de Octubre a las 19hrs."
+      },
+      "branch": ["Megatienda. Av. Chile-España, 393, Ñuñoa"],
+      "demostration": [],
+      "teachers": ["Jimi Hendrix", "Steve Vai"],
+      "promotions": ["20% de descuento para un familiar. Solo arancel."]
+    },
+    {
+      "name": "Batería",
+      "short-description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "programme": [],
+      "prices": [],
+      "times": null,
+      "branch": [],
+      "demostration": [],
+      "teachers": ["Elvin Jones"],
+      "promotions": []
+    },
+    {
+      "name": "Piano",
+      "short-description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "programme": [],
+      "prices": [],
+      "times": null,
+      "branch": [],
+      "demostration": [],
+      "teachers": ["Claudio Arrau", "Nina Simone"],
+      "promotions": [
+        "Descuentos trimestrales y semestrales",
+        "20% de descuento para un familiar. Solo arancel.",
+        "Targeta Soy Providencia: 50% de descuento en matricula y 20% en mesualidad. Solo para talleres grupales de $45.000 y $25.000."
+      ]
+    },
+    {
+      "name": "Bajo",
+      "short-description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "programme": [],
+      "prices": [],
+      "times": null,
+      "branch": [],
+      "demostration": [],
+      "teachers": ["Jaco Pastorius"],
+      "promotions": [
+        "Descuentos trimestrales y semestrales",
+        "20% de descuento para un familiar. Solo arancel.",
+        "Targeta Soy Providencia: 50% de descuento en matricula y 20% en mesualidad. Solo para talleres grupales de $45.000 y $25.000."
+      ]
+    },
+    {
+      "name": "Dj",
+      "short-description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "programme": [],
+      "prices": [],
+      "times": null,
+      "branch": [],
+      "demostration": [],
+      "teachers": ["Skrillex"],
+      "promotions": [
+        "Descuentos trimestrales y semestrales",
+        "20% de descuento para un familiar. Solo arancel.",
+        "Targeta Soy Providencia: 50% de descuento en matricula y 20% en mesualidad. Solo para talleres grupales de $45.000 y $25.000."
+      ]
+    },
+    {
+      "name": "Violín",
+      "short-description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "programme": [],
+      "prices": [],
+      "times": null,
+      "branch": [],
+      "demostration": [],
+      "teachers": ["Maxim Vengerov"],
+      "promotions": [
+        "Descuentos trimestrales y semestrales",
+        "20% de descuento para un familiar. Solo arancel.",
+        "Targeta Soy Providencia: 50% de descuento en matricula y 20% en mesualidad. Solo para talleres grupales de $45.000 y $25.000."
+      ]
+    },
+    {
+      "name": "Ukelele",
+      "short-description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "programme": [],
+      "prices": [],
+      "times": null,
+      "branch": [],
+      "demostration": [],
+      "teachers": ["Israel Kamakawiwo'ole"],
+      "promotions": [
+        "Descuentos trimestrales y semestrales",
+        "20% de descuento para un familiar. Solo arancel.",
+        "Targeta Soy Providencia: 50% de descuento en matricula y 20% en mesualidad. Solo para talleres grupales de $45.000 y $25.000."
+      ]
+    },
+    {
+      "name": "Saxofón y Flauta traversa",
+      "short-description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "programme": [],
+      "prices": [],
+      "times": null,
+      "branch": [],
+      "demostration": [],
+      "teachers": ["John Coltrane"],
+      "promotions": [
+        "Descuentos trimestrales y semestrales",
+        "20% de descuento para un familiar. Solo arancel.",
+        "Targeta Soy Providencia: 50% de descuento en matricula y 20% en mesualidad. Solo para talleres grupales de $45.000 y $25.000."
+      ]
+    }
+  ]
+}

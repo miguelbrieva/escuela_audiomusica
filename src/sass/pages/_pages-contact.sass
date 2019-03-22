@@ -1,0 +1,131 @@
+@import "@material/textfield/mdc-text-field"
+@import "@material/textfield/helper-text/mdc-text-field-helper-text"
+@import "@material/checkbox/mdc-checkbox"
+@import "@material/list/mdc-list"
+@import "@material/menu-surface/mdc-menu-surface"
+@import "@material/menu/mdc-menu"
+
+.contact_page-branches
+  display: grid
+  grid-template-columns: 1fr
+  grid-gap: $spacing-inner
+  margin-bottom: $spacing-vertical-edge
+
+.contact_page-branches-label
+  margin-bottom: 10px
+
+.contact_page-map
+  margin-top: 20px
+
+
+/** FORM **/
+
+.form-container
+  width: 100%
+  max-width: 600px
+  padding: $spacing-min
+  padding-bottom: $spacing-inner
+  margin: 0 auto
+  margin-bottom: $spacing-vertical-edge
+  box-shadow: $shadow-primary
+  border-radius: $border-radius
+
+.form-item
+  margin: $spacing-inner 0
+  > .mdc-text-field
+    width: 100%
+
+.form-item-checkbox
+  display: flex
+
+.checkbox-fieldset
+  border: 1px solid rgba(0, 0, 0, 0.25)
+  border-radius: $border-radius
+  padding: 1em 1em 0 1em
+
+fieldset
+  flex: 1
+  margin: 0
+  padding: 0
+  border: none
+
+legend
+  padding-bottom: 10px
+  color: $color-text-secondary
+  font-size: 1rem
+
+.mdc-form-field--checkbox
+  display: flex
+  align-items: center
+  &:first-child
+    margin-right: $spacing-inner
+
+
+.form-item-checkbox-label
+  width: 100%
+  font-size: 1.2em
+
+.demo-width-class
+  width: 100%
+
+.form-item-checkboxes-container
+  display: flex
+
+.textareaOutlined
+  textarea
+    resize: none
+
+.form-submit
+  width: 100%
+  padding: 1em 1.6em
+  border-radius: $border-radius
+  color: $color-whitest
+  background: $color-am
+  border: none
+  text-transform: uppercase
+  &:focus
+    box-shadow: $shadow-primary
+    outline: none
+  &:hover
+    color: $color-background
+    background: $color-am-dark
+    box-shadow: $shadow-secondary
+    cursor: pointer
+
+
+
+.form-message-content, 
+.form-message-error-content
+  margin-top: $spacing-inner
+  display: flex
+  align-items: center
+  padding: 10px
+  justify-content: center
+  span
+    width: 30px
+    margin-right: $spacing-text
+    svg
+      width: 100%
+
+.form-message-content
+  background-color: $color-background-alt
+  span
+    svg
+      fill: $color-am
+  p
+    color: $color-am
+
+.form-message-error-content
+  background-color: $color-alert-background
+  span
+    svg
+      fill: $color-alert
+  p
+    color: $color-alert
+
+@media all and (min-width: 700px)
+  .contact_page-branches
+    grid-template-columns: 1fr 1fr
+
+  .form-container
+    padding: $spacing-inner

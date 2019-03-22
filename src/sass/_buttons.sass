@@ -1,0 +1,47 @@
+.btn
+  display: inline-block
+  text-align: center
+  text-transform: uppercase
+  transition: $transition
+  // overflow: hidden
+  margin: 0 auto
+  a
+    display: inline-block
+    padding: 1em 1.6em
+    border-radius: $border-radius
+    // box-shadow: $shadow-primary
+    &:hover
+      box-shadow: $shadow-secondary
+
+.btn-negative
+  a
+    color: $color-text
+    background: white
+    &:hover
+      background: $color-negative-light
+
+.btn-std
+  a
+    color: $color-whitest
+    background: $color-am
+    &:hover
+      color: $color-background
+      background: $color-am-dark
+
+.btn-secondary
+  a
+    color: $color-whitest
+    background: $color-negative-light
+    &:hover
+      background: $color-text-secondary
+
+.btn-centered
+  display: block
+  width: 100%
+  a
+    width: 100%
+
+@media all and (min-width: 700px)
+  .btn-centered
+    a
+      width: auto

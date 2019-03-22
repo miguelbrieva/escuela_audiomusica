@@ -1,0 +1,36 @@
+@import 'home-sections/curses'
+@import 'home-sections/workshops'
+@import 'home-sections/hero-section'
+@import 'home-sections/teachers'
+
+.box-item
+  border-radius: $border-radius
+  border-bottom: 4px solid $color-am
+  box-shadow: $shadow-primary
+  overflow: hidden
+  &:hover
+    box-shadow: $shadow-secondary
+    border-bottom: 4px solid $color-am-active
+  &:last-child
+    margin-bottom: 0
+
+.box-item-image
+  img
+    width: 100%
+
+.box-item-name
+  padding: 0 $spacing-text
+  
+.box-item-description
+  padding: 0 $spacing-text
+  p
+    margin: $spacing-text 0
+    line-height: 150%
+    color: $color-text-secondary
+
+.section_description
+  p
+    font-size: 1.2em
+    color: $color-text-secondary
+    margin-bottom: $spacing-inner
+    line-height: 160%

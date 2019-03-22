@@ -1,0 +1,75 @@
+.curses_page
+  margin-bottom: $spacing-vertical-edge
+
+.curses_page-description
+  display: flex
+  flex-flow: column wrap
+  margin-bottom: $spacing-vertical-edge
+
+.curses_page-description-image
+  display: none
+
+.curses_page-description-btn
+  margin-top: $spacing-vertical-edge
+
+.curses_page-promotions
+  background-color: $color-background-alt
+  .curses_page-promotions-container
+    padding: $spacing-inner 10px
+    h3
+      margin-top: 0
+      margin-bottom: 1em
+    li
+      margin-bottom: 10px
+      // list-style: disc inside
+      &:last-child
+        margin-bottom: 0
+
+//Teachers section
+.curses_page-teachers-content
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr))
+  grid-gap: 10px
+
+.curses_page-teachers-content-item
+  max-width: 200px
+  img
+    height: 170px
+    width: 100%
+    object-fit: cover
+
+
+@media all and (min-width: 700px)
+  .curses_page-teachers-content
+    grid-gap: 20px
+
+  .curses_page-promotions
+    .curses_page-promotions-container
+      padding: $spacing-inner 33px
+
+  .curses_page-description
+    display: flex
+    flex-flow: row wrap
+    margin-bottom: $spacing-vertical-edge
+
+  .curses_page-description-image
+    flex: 1
+    display: block
+    margin-right: $spacing-inner
+    max-height: 280px
+    border-radius: 5px
+    overflow: hidden
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+
+  .curses_page-description-text
+    flex: 2
+    padding-right: $spacing-inner
+
+  .curses_page-description-title
+    display: none
+  
+  .curses_page-description-btn
+    text-align: left
