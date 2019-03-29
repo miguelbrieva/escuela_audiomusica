@@ -65,7 +65,10 @@ module.exports = {
     ]
   },
   optimization: {
-    usedExports: true
+    usedExports: true,
+    splitChunks: {
+      chunks: 'all'
+    }
   },
   output: {
     filename: '[name].[hash:8].js',
