@@ -66,6 +66,7 @@ module.exports = {
   },
   optimization: {
     usedExports: true,
+    runtimeChunk: 'single',
     splitChunks: {
       chunks: 'all'
     }
@@ -77,7 +78,7 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].[hash:8].css',
-      chunkFilename: '[id].css'
+      chunkFilename: '[id].[hash:8].css'
     }),
     new OptimizeCssAssetsPlugin({
       assetNameRegExp: /\.css$/g,
