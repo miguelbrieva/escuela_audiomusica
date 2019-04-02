@@ -3,3 +3,6 @@
 
 # OS genereted files
 .DS_Store-
+
+# Webpack production folder
+/dist
