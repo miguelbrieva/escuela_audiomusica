@@ -71,7 +71,7 @@ module.exports = {
     }
   },
   output: {
-    chunkFilename: '[name].[contenthash:8].js',
+    chunkFilename: 'chunks/[name].[contenthash:8].js',
     filename: '[name].[hash:8].js',
     path: path.resolve(__dirname, 'dist'),
   },
