@@ -44,7 +44,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: "images/[name].[hash:8].[ext]"
+              name: "images/[name].[ext]"
             }
           }
         ]
@@ -67,7 +67,7 @@ module.exports = {
     usedExports: true
   },
   output: {
-    filename: '[name].bundle.js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
   },
   plugins: [

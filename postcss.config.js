@@ -5,6 +5,7 @@ module.exports = {
       flexbox: true,
       cascade: true,
     }),
-    require('cssnano')
-  ],
+    require('cssnano'),
+    require('css-mqpacker'),
+   ]
 }
