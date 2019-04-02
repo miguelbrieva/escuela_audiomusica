@@ -3,7 +3,8 @@ module.exports = {
     require('autoprefixer')({
       grid: true,
       flexbox: true,
-      cascade: true
+      cascade: true,
     }),
-  ]
+    require('cssnano')
+  ],
 }
