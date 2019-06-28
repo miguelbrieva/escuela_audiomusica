@@ -6,6 +6,5 @@ module.exports = {
       cascade: true,
     }),
     require('cssnano'),
-    require('css-mqpacker'),
    ]
 }
